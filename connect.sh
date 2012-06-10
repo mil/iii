@@ -6,12 +6,18 @@
 # server info functions
 freenode() {
     server='irc.freenode.net'
-    channels="#foo #bar"
+    channels="#cat-v #gentoo-el #foss-aueb #musl #awk ##c ##posix"
 }
 
 oftc() {
     server='irc.oftc.net'
-    channels="#xyz #abc"
+    channels="#suckless #ii"
+}
+
+grnet() {
+    server='rea.irc.gr'
+    channels="#gnu #demo-gr"
+    port=9667
 }
 
 # these match the functions above
