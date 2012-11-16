@@ -15,4 +15,5 @@ spawn "$f" "musl"      # 4
 spawn "$o" "suckless"  # 5
 spawn "$f" "#c"        # 6
 spawn "$f" "#posix"    # 7
-spawn "$o" "ii"        # 8
+#spawn "$o" "ii"        # 8
+spawn "$o" "xcb"        # 8
